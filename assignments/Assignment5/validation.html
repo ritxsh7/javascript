@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validation.css">
+    <title>Form validation</title>
+</head>
+<body>
+    <form id="signupForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <div class="error" id="error"></div>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="validation.js" type="module"></script>
+    <p id="success" class="success">Form submitted successfully</p>
+</body>
+</html>
