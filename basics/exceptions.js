@@ -7,4 +7,10 @@ function isEligible(age) {
   }
 }
 
-isEligible(17);
+// isEligible(17);
+
+try {
+  const arr = new Array(1, 2, 3);
+} catch (error) {
+  console.log(error);
+}
